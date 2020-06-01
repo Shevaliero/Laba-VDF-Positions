@@ -1,0 +1,36 @@
+body{
+    position: relative;
+    height: 3000px;
+}
+.roof{
+    position: sticky;
+    background-color: royalblue;
+    height: 75px;
+    width: auto;
+    top: 0px;
+}
+.wall{
+    position: sticky;
+    background-color: saddlebrown;
+    height: 450px;
+    width: auto;
+    margin-top: 100px;
+    top: 75px;
+    padding: 5px;
+}
+.window{
+    position: sticky;
+    background-color: aqua;
+    height: 125px;
+    width: 150px;
+    margin:200px 50px;
+    top: 200px;
+}
+.door{
+    position: sticky;
+    background-color: darkgoldenrod;
+    height: 300px;
+    width: 200px;
+    margin: 150px 400px;
+    top: 235px;
+}

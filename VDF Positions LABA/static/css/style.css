@@ -1,0 +1,35 @@
+body{
+    position: relative;
+    height: 2000px;
+}
+.roof{
+    position: static;
+    background-color: coral;
+    height: 50px;
+    width: auto;
+    border: 1px solid black;
+    border-radius: 50px 50px 0px 0px;
+}
+.wall{
+    position: static;
+    background-color: gray;
+    height: 320px;
+    width: auto;
+    border: 1px solid black;
+}
+.window{
+    position: static;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 150px;
+    margin: -240px auto auto 500px;
+    border: 1px solid black;
+}
+.door{
+    position: static;
+    background-color: darkgoldenrod;
+    height: 250px;
+    width: 150px;
+    margin:-164px auto auto;
+    border: 1px solid black;
+}

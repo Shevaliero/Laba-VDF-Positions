@@ -1,0 +1,42 @@
+body{
+    position: relative;
+    height: 5000px;
+}
+.roof{
+    background-color: silver;
+    position:fixed;
+    top: 0px;
+    border-radius: 75px 75px 0px 0px;
+    height: 50px;
+    width: 700px;
+    border: 1px solid black;
+}
+.wall{
+    position:fixed;
+    top: 50px;
+    width: 700px;
+    height: 275px;
+    flex-direction: column;
+    background-color:sandybrown;
+    border: 1px solid black;
+}
+.window{
+    position: fixed;
+    top: 100px;
+    background: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    border: 1px solid black;
+    box-sizing:border-box;
+    padding: 25px;
+}
+.door{
+    position: fixed;
+    background-color: brown;
+    height: 230px;
+    width: 130px;
+    margin: 87px 200px;
+    border: 1px solid black;
+    
+}

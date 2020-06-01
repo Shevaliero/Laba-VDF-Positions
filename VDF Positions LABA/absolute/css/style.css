@@ -1,0 +1,31 @@
+body{
+    position: relative;
+}
+.roof{
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 700px;
+    z-index: 1;
+}
+.wall{
+    background-color: brown;
+    height: 500px;
+    width:700px;
+    position: absolute;
+}
+.window{
+    background-color: cornflowerblue;
+    height: 250px;
+    width: 100px;
+    position:absolute;
+    z-index: ;
+    margin:70px;
+}
+.door{
+    background-color: grey;
+    height: 300px;
+    width: 150px;
+    position: absolute;
+    margin: 200px
+}
